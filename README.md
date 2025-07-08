@@ -1,4 +1,4 @@
-# 🧠 LLaMA 3 Assignement Demo
+# 🧠 LLaMA 3 Assignment Demo
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -22,5 +22,13 @@ Launch your own locally-hosted LLaMA 3 server with Ollama and FastAPI:
 ### 1. **Install Ollama**
 [→ Ollama Docs](https://ollama.com/docs)
 
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
+### 2. **Install dependencies using pip**
+```py
+ pip install -r requirements.txt
+```
+
+### 3. **Run FAST API Server using Uvicorn or by dev.py**
+_supports hot reload, but you can remove the flag_
+```py
+python dev.py
+```
